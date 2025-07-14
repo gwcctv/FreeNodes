@@ -1,4 +1,4 @@
-2025-07-14 03:28:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2025-07-14 08:23:13 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -13,186 +13,182 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2025-07-14 03:28:37 [scrapy.middleware] INFO: Enabled spider middlewares:
+2025-07-14 08:23:13 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
  'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2025-07-14 03:28:37 [scrapy.middleware] INFO: Enabled item pipelines:
+2025-07-14 08:23:13 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2025-07-14 03:28:37 [scrapy.core.engine] INFO: Spider opened
-2025-07-14 03:28:37 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+2025-07-14 08:23:13 [scrapy.core.engine] INFO: Spider opened
+2025-07-14 08:23:13 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
   warn(
 
-2025-07-14 03:28:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-07-14 03:28:37 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2025-07-14 03:28:37 [simple] INFO: clashmeta start
-2025-07-14 03:28:37 [simple] INFO: ndnode start
-2025-07-14 03:28:37 [simple] INFO: nodev2ray start
-2025-07-14 03:28:37 [simple] INFO: nodefree start
-2025-07-14 03:28:37 [simple] INFO: v2rayshare start
-2025-07-14 03:28:37 [simple] INFO: wenode start
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-12-free-subscribe-node.htm on 2025-07-12
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-12-free-subscribe-node.htm on 2025-07-12
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-11-clash-meta-windows.htm on 2025-07-11
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-11-clash-meta-windows.htm on 2025-07-11
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-10-latest-clash-meta-node.htm on 2025-07-10
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-10-latest-clash-meta-node.htm on 2025-07-10
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-9-clash-meta-github.htm on 2025-07-09
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-9-clash-meta-github.htm on 2025-07-09
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-8-clash-meta-node.htm on 2025-07-08
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-8-clash-meta-node.htm on 2025-07-08
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-7-free-high-speed-nodes.htm on 2025-07-07
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-7-free-high-speed-nodes.htm on 2025-07-07
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-6-clash-meta-github.htm on 2025-07-06
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-6-clash-meta-github.htm on 2025-07-06
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-5-today-clash-meta-node.htm on 2025-07-05
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-5-today-clash-meta-node.htm on 2025-07-05
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-4-clash-meta-windows.htm on 2025-07-04
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-4-clash-meta-windows.htm on 2025-07-04
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-1-free-node-subscribe.htm on 2025-07-01
-2025-07-14 03:28:38 [simple] INFO: clashmeta found /free-nodes/2025-7-1-free-node-subscribe.htm on 2025-07-01
-2025-07-14 03:28:38 [simple] INFO: clashmeta is up to date, exiting
-2025-07-14 03:28:38 [simple] INFO: clashmeta is up to date, exiting
-2025-07-14 03:28:38 [simple] INFO: clashmeta is up to date, exiting
-2025-07-14 03:28:38 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4268.html on 2025-07-13
-2025-07-14 03:28:38 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4269.html on 2025-07-12
-2025-07-14 03:28:38 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4270.html on 2025-07-11
-2025-07-14 03:28:38 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4271.html on 2025-07-10
-2025-07-14 03:28:38 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4272.html on 2025-07-09
-2025-07-14 03:28:38 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4273.html on 2025-07-08
-2025-07-14 03:28:38 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4274.html on 2025-07-07
-2025-07-14 03:28:38 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4275.html on 2025-07-06
-2025-07-14 03:28:38 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4276.html on 2025-07-05
-2025-07-14 03:28:38 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4277.html on 2025-07-04
-2025-07-14 03:28:38 [simple] INFO: v2rayshare is up to date, exiting
-2025-07-14 03:28:38 [simple] INFO: v2rayshare is up to date, exiting
-2025-07-14 03:28:38 [simple] INFO: v2rayshare is up to date, exiting
-2025-07-14 03:28:38 [simple] INFO: wenode found https://wenode.cc/a/2485.html on 2025-07-13
-2025-07-14 03:28:38 [simple] INFO: wenode found https://wenode.cc/a/2486.html on 2025-07-12
-2025-07-14 03:28:38 [simple] INFO: wenode found https://wenode.cc/a/2487.html on 2025-07-11
-2025-07-14 03:28:38 [simple] INFO: wenode found https://wenode.cc/a/2488.html on 2025-07-10
-2025-07-14 03:28:38 [simple] INFO: wenode found https://wenode.cc/a/2489.html on 2025-07-09
-2025-07-14 03:28:38 [simple] INFO: wenode found https://wenode.cc/a/2490.html on 2025-07-08
-2025-07-14 03:28:38 [simple] INFO: wenode found https://wenode.cc/a/2491.html on 2025-07-07
-2025-07-14 03:28:38 [simple] INFO: wenode found https://wenode.cc/a/2492.html on 2025-07-06
-2025-07-14 03:28:38 [simple] INFO: wenode found https://wenode.cc/a/2493.html on 2025-07-05
-2025-07-14 03:28:38 [simple] INFO: wenode found https://wenode.cc/a/2494.html on 2025-07-04
-2025-07-14 03:28:38 [simple] INFO: wenode is up to date, exiting
-2025-07-14 03:28:38 [simple] INFO: wenode is up to date, exiting
-2025-07-14 03:28:38 [simple] INFO: wenode is up to date, exiting
-2025-07-14 03:28:38 [simple] INFO: nodev2ray found /free-node/2025-7-14-v2ray-windows.htm on 2025-07-14
-2025-07-14 03:28:38 [simple] INFO: nodev2ray found /free-node/2025-7-13-free-subscribe-node.htm on 2025-07-13
-2025-07-14 03:28:38 [simple] INFO: nodev2ray found /free-node/2025-7-12-free-clash-subscribe.htm on 2025-07-12
-2025-07-14 03:28:38 [simple] INFO: nodev2ray found /free-node/2025-7-11-free-subscribe-node.htm on 2025-07-11
-2025-07-14 03:28:38 [simple] INFO: nodev2ray found /free-node/2025-7-10-node-share-links.htm on 2025-07-10
-2025-07-14 03:28:38 [simple] INFO: nodev2ray found /free-node/2025-7-9-free-clash.htm on 2025-07-09
-2025-07-14 03:28:38 [simple] INFO: nodev2ray found /free-node/2025-7-8-free-ssr-subscribe.htm on 2025-07-08
-2025-07-14 03:28:38 [simple] INFO: nodev2ray found /free-node/2025-7-7-node-share.htm on 2025-07-07
-2025-07-14 03:28:38 [simple] INFO: nodev2ray found /free-node/2025-7-6-clash-v2ray-ss-ssr.htm on 2025-07-06
-2025-07-14 03:28:38 [simple] INFO: nodev2ray found /free-node/2025-7-5-free-ssr-subscribe.htm on 2025-07-05
-2025-07-14 03:28:38 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-7-14-v2ray-windows.htm
-2025-07-14 03:28:38 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-7-13-free-subscribe-node.htm
-2025-07-14 03:28:38 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-7-12-free-clash-subscribe.htm
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/0-20250714.txt
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/2-20250714.txt
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/0-20250714.yaml
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/1-20250714.yaml
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/3-20250714.yaml
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/4-20250714.yaml
-2025-07-14 03:28:39 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/07/20250714.json, skipping
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/1-20250713.txt
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/2-20250713.txt
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/4-20250713.txt
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/0-20250713.yaml
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/2-20250713.yaml
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/4-20250713.yaml
-2025-07-14 03:28:39 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/07/20250713.json, skipping
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/0-20250712.txt
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/2-20250712.txt
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/3-20250712.txt
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/0-20250712.yaml
-2025-07-14 03:28:39 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/1-20250712.yaml
-2025-07-14 03:28:39 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/07/20250712.json, skipping
-2025-07-14 03:28:39 [simple] INFO: nodefree found https://nodefree.net/p/2854.html on 2025-07-13
-2025-07-14 03:28:39 [simple] INFO: nodefree found https://nodefree.net/p/2855.html on 2025-07-12
-2025-07-14 03:28:39 [simple] INFO: nodefree found https://nodefree.net/p/2856.html on 2025-07-11
-2025-07-14 03:28:39 [simple] INFO: nodefree found https://nodefree.net/p/2857.html on 2025-07-10
-2025-07-14 03:28:39 [simple] INFO: nodefree found https://nodefree.net/p/2858.html on 2025-07-09
-2025-07-14 03:28:39 [simple] INFO: nodefree found https://nodefree.net/p/2859.html on 2025-07-08
-2025-07-14 03:28:39 [simple] INFO: nodefree found https://nodefree.net/p/2860.html on 2025-07-07
-2025-07-14 03:28:39 [simple] INFO: nodefree found https://nodefree.net/p/2861.html on 2025-07-06
-2025-07-14 03:28:39 [simple] INFO: nodefree found https://nodefree.net/p/2862.html on 2025-07-05
-2025-07-14 03:28:39 [simple] INFO: nodefree found https://nodefree.net/p/2863.html on 2025-07-04
-2025-07-14 03:28:39 [simple] INFO: nodefree is up to date, exiting
-2025-07-14 03:28:39 [simple] INFO: nodefree is up to date, exiting
-2025-07-14 03:28:39 [simple] INFO: nodefree is up to date, exiting
-2025-07-14 03:28:40 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/n/3140.html
-2025-07-14 03:28:40 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/n/3138.html
-2025-07-14 03:28:40 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/n/3136.html
-2025-07-14 03:28:41 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20250714-v2ray.txt
-2025-07-14 03:28:41 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20250714-clash.yaml
-2025-07-14 03:28:42 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20250712-v2ray.txt
-2025-07-14 03:28:42 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20250712-clash.yaml
-2025-07-14 03:28:42 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20250713-v2ray.txt
-2025-07-14 03:28:42 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20250713-clash.yaml
-2025-07-14 03:28:42 [simple] INFO: Pipeline processed ndnode.txt
-2025-07-14 03:28:42 [simple] INFO: Pipeline processed ndnode.txt
-2025-07-14 03:28:42 [simple] INFO: Pipeline processed ndnode.txt
-2025-07-14 03:28:43 [simple] INFO: Pipeline processed ndnode.yaml
-2025-07-14 03:28:43 [simple] INFO: Pipeline processed ndnode.yaml
-2025-07-14 03:28:43 [simple] INFO: Pipeline processed ndnode.yaml
-2025-07-14 03:28:43 [scrapy.core.engine] INFO: Closing spider (finished)
-2025-07-14 03:28:43 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+2025-07-14 08:23:13 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-07-14 08:23:13 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-07-14 08:23:13 [simple] INFO: clashmeta start
+2025-07-14 08:23:13 [simple] INFO: ndnode start
+2025-07-14 08:23:13 [simple] INFO: nodev2ray start
+2025-07-14 08:23:13 [simple] INFO: nodefree start
+2025-07-14 08:23:13 [simple] INFO: v2rayshare start
+2025-07-14 08:23:13 [simple] INFO: wenode start
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-12-free-subscribe-node.htm on 2025-07-12
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-12-free-subscribe-node.htm on 2025-07-12
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-11-clash-meta-windows.htm on 2025-07-11
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-11-clash-meta-windows.htm on 2025-07-11
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-10-latest-clash-meta-node.htm on 2025-07-10
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-10-latest-clash-meta-node.htm on 2025-07-10
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-9-clash-meta-github.htm on 2025-07-09
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-9-clash-meta-github.htm on 2025-07-09
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-8-clash-meta-node.htm on 2025-07-08
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-8-clash-meta-node.htm on 2025-07-08
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-7-free-high-speed-nodes.htm on 2025-07-07
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-7-free-high-speed-nodes.htm on 2025-07-07
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-6-clash-meta-github.htm on 2025-07-06
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-6-clash-meta-github.htm on 2025-07-06
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-5-today-clash-meta-node.htm on 2025-07-05
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-5-today-clash-meta-node.htm on 2025-07-05
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-4-clash-meta-windows.htm on 2025-07-04
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-4-clash-meta-windows.htm on 2025-07-04
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-1-free-node-subscribe.htm on 2025-07-01
+2025-07-14 08:23:13 [simple] INFO: clashmeta found /free-nodes/2025-7-1-free-node-subscribe.htm on 2025-07-01
+2025-07-14 08:23:13 [simple] INFO: clashmeta is up to date, exiting
+2025-07-14 08:23:13 [simple] INFO: clashmeta is up to date, exiting
+2025-07-14 08:23:13 [simple] INFO: clashmeta is up to date, exiting
+2025-07-14 08:23:13 [simple] INFO: nodev2ray found /free-node/2025-7-14-v2ray-windows.htm on 2025-07-14
+2025-07-14 08:23:13 [simple] INFO: nodev2ray found /free-node/2025-7-13-free-subscribe-node.htm on 2025-07-13
+2025-07-14 08:23:13 [simple] INFO: nodev2ray found /free-node/2025-7-12-free-clash-subscribe.htm on 2025-07-12
+2025-07-14 08:23:13 [simple] INFO: nodev2ray found /free-node/2025-7-11-free-subscribe-node.htm on 2025-07-11
+2025-07-14 08:23:13 [simple] INFO: nodev2ray found /free-node/2025-7-10-node-share-links.htm on 2025-07-10
+2025-07-14 08:23:13 [simple] INFO: nodev2ray found /free-node/2025-7-9-free-clash.htm on 2025-07-09
+2025-07-14 08:23:13 [simple] INFO: nodev2ray found /free-node/2025-7-8-free-ssr-subscribe.htm on 2025-07-08
+2025-07-14 08:23:13 [simple] INFO: nodev2ray found /free-node/2025-7-7-node-share.htm on 2025-07-07
+2025-07-14 08:23:13 [simple] INFO: nodev2ray found /free-node/2025-7-6-clash-v2ray-ss-ssr.htm on 2025-07-06
+2025-07-14 08:23:13 [simple] INFO: nodev2ray found /free-node/2025-7-5-free-ssr-subscribe.htm on 2025-07-05
+2025-07-14 08:23:13 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-7-14-v2ray-windows.htm
+2025-07-14 08:23:13 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-7-13-free-subscribe-node.htm
+2025-07-14 08:23:13 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-7-12-free-clash-subscribe.htm
+2025-07-14 08:23:14 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4268.html on 2025-07-13
+2025-07-14 08:23:14 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4269.html on 2025-07-12
+2025-07-14 08:23:14 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4270.html on 2025-07-11
+2025-07-14 08:23:14 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4271.html on 2025-07-10
+2025-07-14 08:23:14 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4272.html on 2025-07-09
+2025-07-14 08:23:14 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4273.html on 2025-07-08
+2025-07-14 08:23:14 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4274.html on 2025-07-07
+2025-07-14 08:23:14 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4275.html on 2025-07-06
+2025-07-14 08:23:14 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4276.html on 2025-07-05
+2025-07-14 08:23:14 [simple] INFO: v2rayshare found https://v2rayshare.net/p/4277.html on 2025-07-04
+2025-07-14 08:23:14 [simple] INFO: v2rayshare is up to date, exiting
+2025-07-14 08:23:14 [simple] INFO: v2rayshare is up to date, exiting
+2025-07-14 08:23:14 [simple] INFO: v2rayshare is up to date, exiting
+2025-07-14 08:23:14 [simple] INFO: wenode found https://wenode.cc/a/2484.html on 2025-07-14
+2025-07-14 08:23:14 [simple] INFO: wenode found https://wenode.cc/a/2485.html on 2025-07-13
+2025-07-14 08:23:14 [simple] INFO: wenode found https://wenode.cc/a/2486.html on 2025-07-12
+2025-07-14 08:23:14 [simple] INFO: wenode found https://wenode.cc/a/2487.html on 2025-07-11
+2025-07-14 08:23:14 [simple] INFO: wenode found https://wenode.cc/a/2488.html on 2025-07-10
+2025-07-14 08:23:14 [simple] INFO: wenode found https://wenode.cc/a/2489.html on 2025-07-09
+2025-07-14 08:23:14 [simple] INFO: wenode found https://wenode.cc/a/2490.html on 2025-07-08
+2025-07-14 08:23:14 [simple] INFO: wenode found https://wenode.cc/a/2491.html on 2025-07-07
+2025-07-14 08:23:14 [simple] INFO: wenode found https://wenode.cc/a/2492.html on 2025-07-06
+2025-07-14 08:23:14 [simple] INFO: wenode found https://wenode.cc/a/2493.html on 2025-07-05
+2025-07-14 08:23:14 [simple] INFO: wenode needs update, accessing https://wenode.cc/a/2484.html
+2025-07-14 08:23:14 [simple] INFO: wenode is up to date, exiting
+2025-07-14 08:23:14 [simple] INFO: wenode is up to date, exiting
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/0-20250714.txt
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/2-20250714.txt
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/0-20250714.yaml
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/1-20250714.yaml
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/3-20250714.yaml
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/4-20250714.yaml
+2025-07-14 08:23:14 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/07/20250714.json, skipping
+2025-07-14 08:23:14 [simple] INFO: wenode found https://wenode.githubrowcontent.com/2025/07/20250714.txt
+2025-07-14 08:23:14 [simple] INFO: wenode found https://wenode.githubrowcontent.com/2025/07/20250714.yaml
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/0-20250712.txt
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/2-20250712.txt
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/3-20250712.txt
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/0-20250712.yaml
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/1-20250712.yaml
+2025-07-14 08:23:14 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/07/20250712.json, skipping
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/1-20250713.txt
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/2-20250713.txt
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/4-20250713.txt
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/0-20250713.yaml
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/2-20250713.yaml
+2025-07-14 08:23:14 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/07/4-20250713.yaml
+2025-07-14 08:23:14 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/07/20250713.json, skipping
+2025-07-14 08:23:15 [simple] INFO: nodefree found https://nodefree.me/p/2853.html on 2025-07-14
+2025-07-14 08:23:15 [simple] INFO: nodefree found https://nodefree.me/p/2854.html on 2025-07-13
+2025-07-14 08:23:15 [simple] INFO: nodefree found https://nodefree.me/p/2855.html on 2025-07-12
+2025-07-14 08:23:15 [simple] INFO: nodefree found https://nodefree.me/p/2856.html on 2025-07-11
+2025-07-14 08:23:15 [simple] INFO: nodefree found https://nodefree.me/p/2857.html on 2025-07-10
+2025-07-14 08:23:15 [simple] INFO: nodefree found https://nodefree.me/p/2858.html on 2025-07-09
+2025-07-14 08:23:15 [simple] INFO: nodefree found https://nodefree.me/p/2859.html on 2025-07-08
+2025-07-14 08:23:15 [simple] INFO: nodefree found https://nodefree.me/p/2860.html on 2025-07-07
+2025-07-14 08:23:15 [simple] INFO: nodefree found https://nodefree.me/p/2861.html on 2025-07-06
+2025-07-14 08:23:15 [simple] INFO: nodefree found https://nodefree.me/p/2862.html on 2025-07-05
+2025-07-14 08:23:15 [simple] INFO: nodefree needs update, accessing https://nodefree.me/p/2853.html
+2025-07-14 08:23:15 [simple] INFO: nodefree is up to date, exiting
+2025-07-14 08:23:15 [simple] INFO: nodefree is up to date, exiting
+2025-07-14 08:23:15 [simple] INFO: Pipeline processed wenode.txt
+2025-07-14 08:23:15 [simple] INFO: Pipeline processed wenode.yaml
+2025-07-14 08:23:15 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/07/20250714.txt
+2025-07-14 08:23:15 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/07/20250714.yaml
+2025-07-14 08:23:15 [simple] INFO: ndnode is up to date, exiting
+2025-07-14 08:23:15 [simple] INFO: ndnode is up to date, exiting
+2025-07-14 08:23:15 [simple] INFO: ndnode is up to date, exiting
+2025-07-14 08:23:16 [simple] INFO: Pipeline processed nodefree.txt
+2025-07-14 08:23:16 [simple] INFO: Pipeline processed nodefree.yaml
+2025-07-14 08:23:16 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-07-14 08:23:16 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
 {'downloader/exception_count': 17,
  'downloader/exception_type_count/scrapy.exceptions.IgnoreRequest': 17,
- 'downloader/request_bytes': 12427,
- 'downloader/request_count': 36,
- 'downloader/request_method_count/GET': 36,
- 'downloader/response_bytes': 723077,
- 'downloader/response_count': 36,
- 'downloader/response_status_count/200': 23,
- 'downloader/response_status_count/301': 8,
+ 'downloader/request_bytes': 10762,
+ 'downloader/request_count': 31,
+ 'downloader/request_method_count/GET': 31,
+ 'downloader/response_bytes': 533116,
+ 'downloader/response_count': 31,
+ 'downloader/response_status_count/200': 20,
+ 'downloader/response_status_count/301': 6,
  'downloader/response_status_count/404': 5,
- 'elapsed_time_seconds': 5.840107,
+ 'elapsed_time_seconds': 3.170592,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2025, 7, 14, 3, 28, 43, 633511, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 553303,
- 'httpcompression/response_count': 23,
- 'item_scraped_count': 6,
- 'items_per_minute': 72.0,
- 'log_count/INFO': 123,
+ 'finish_time': datetime.datetime(2025, 7, 14, 8, 23, 16, 596554, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 565643,
+ 'httpcompression/response_count': 22,
+ 'item_scraped_count': 4,
+ 'items_per_minute': 80.0,
+ 'log_count/INFO': 119,
  'log_count/WARNING': 5,
- 'memusage/max': 156925952,
- 'memusage/startup': 156925952,
+ 'memusage/max': 156962816,
+ 'memusage/startup': 156962816,
  'request_depth_max': 2,
- 'response_received_count': 28,
- 'responses_per_minute': 336.0,
+ 'response_received_count': 25,
+ 'responses_per_minute': 500.0,
  'robotstxt/forbidden': 17,
  'robotstxt/request_count': 10,
  'robotstxt/response_count': 10,
  'robotstxt/response_status_count/200': 5,
  'robotstxt/response_status_count/404': 5,
- 'scheduler/dequeued': 39,
- 'scheduler/dequeued/memory': 39,
- 'scheduler/enqueued': 39,
- 'scheduler/enqueued/memory': 39,
- 'start_time': datetime.datetime(2025, 7, 14, 3, 28, 37, 793404, tzinfo=datetime.timezone.utc)}
-2025-07-14 03:28:43 [scrapy.core.engine] INFO: Spider closed (finished)
-2025-07-14 03:28:51 [scrapy.addons] INFO: Enabled addons:
+ 'scheduler/dequeued': 35,
+ 'scheduler/dequeued/memory': 35,
+ 'scheduler/enqueued': 35,
+ 'scheduler/enqueued/memory': 35,
+ 'start_time': datetime.datetime(2025, 7, 14, 8, 23, 13, 425962, tzinfo=datetime.timezone.utc)}
+2025-07-14 08:23:16 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-07-14 08:23:26 [scrapy.addons] INFO: Enabled addons:
 []
-2025-07-14 03:28:51 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/scrapy/utils/request.py:120: ScrapyDeprecationWarning: 'REQUEST_FINGERPRINTER_IMPLEMENTATION' is a deprecated setting.
+2025-07-14 08:23:26 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/scrapy/utils/request.py:120: ScrapyDeprecationWarning: 'REQUEST_FINGERPRINTER_IMPLEMENTATION' is a deprecated setting.
 It will be removed in a future version of Scrapy.
   return cls(crawler)
 
-2025-07-14 03:28:51 [scrapy.extensions.telnet] INFO: Telnet Password: 7d12855ce62070f4
-2025-07-14 03:28:51 [scrapy.middleware] INFO: Enabled extensions:
+2025-07-14 08:23:26 [scrapy.extensions.telnet] INFO: Telnet Password: 74d7185242ae79d6
+2025-07-14 08:23:26 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.memusage.MemoryUsage',
  'scrapy.extensions.logstats.LogStats']
-2025-07-14 03:28:51 [scrapy.crawler] INFO: Overridden settings:
+2025-07-14 08:23:26 [scrapy.crawler] INFO: Overridden settings:
 {'BOT_NAME': 'NodeScrapy',
  'FEED_EXPORT_ENCODING': 'utf-8',
  'LOG_FILE': 'scrapy.log',
@@ -201,7 +197,7 @@ It will be removed in a future version of Scrapy.
  'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
  'ROBOTSTXT_OBEY': True,
  'SPIDER_MODULES': ['NodeScrapy.spiders']}
-2025-07-14 03:28:51 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2025-07-14 08:23:26 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -216,181 +212,123 @@ It will be removed in a future version of Scrapy.
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2025-07-14 03:28:51 [scrapy.middleware] INFO: Enabled spider middlewares:
+2025-07-14 08:23:26 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
  'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2025-07-14 03:28:51 [scrapy.middleware] INFO: Enabled item pipelines:
+2025-07-14 08:23:26 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2025-07-14 03:28:51 [scrapy.core.engine] INFO: Spider opened
-2025-07-14 03:28:51 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider (inherited by NodeScrapy.spiders.DecryptSpider.DecryptSpider) defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+2025-07-14 08:23:26 [scrapy.core.engine] INFO: Spider opened
+2025-07-14 08:23:26 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider (inherited by NodeScrapy.spiders.DecryptSpider.DecryptSpider) defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
   warn(
 
-2025-07-14 03:28:51 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-07-14 03:28:51 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2025-07-14 03:28:51 [decrypt] INFO: yudou66 start
-2025-07-14 03:28:51 [decrypt] INFO: blues start
-2025-07-14 03:28:51 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/20257144kchatgpt4k8kclashv2ray.html on 2025-07-14
-2025-07-14 03:28:51 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/20257134kchatgpt4k8kclashv2ray.html on 2025-07-13
-2025-07-14 03:28:51 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/20257124kchatgpt4k8kclashv2ray.html on 2025-07-12
-2025-07-14 03:28:51 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/20257114kchatgpt4k8kclashv2ray.html on 2025-07-11
-2025-07-14 03:28:51 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/20257104kchatgpt4k8kclashv2ray.html on 2025-07-10
-2025-07-14 03:28:51 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/2025794kchatgpt4k8kclashv2ray.html on 2025-07-09
-2025-07-14 03:28:51 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/2025784kchatgpt4k8kclashv2ray.html on 2025-07-08
-2025-07-14 03:28:51 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/2025774kchatgpt4k8kclashv2ray.html on 2025-07-07
-2025-07-14 03:28:51 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/2025764kchatgpt4k8kclashv2ray.html on 2025-07-06
-2025-07-14 03:28:51 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/2025754kchatgpt4k8kclashv2ray.html on 2025-07-05
-2025-07-14 03:28:51 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/07/20257144kchatgpt4k8kclashv2ray.html
-2025-07-14 03:28:51 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/07/20257134kchatgpt4k8kclashv2ray.html
-2025-07-14 03:28:51 [decrypt] INFO: blues is up to date, exiting
-2025-07-14 03:28:51 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507142651080p4kv2rayclashsing.html on 2025-07-14
-2025-07-14 03:28:51 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507132681080p4kv2rayclashsing.html on 2025-07-13
-2025-07-14 03:28:51 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507122691080p4kv2rayclashsing.html on 2025-07-12
-2025-07-14 03:28:51 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507112581080p4kv2rayclashsing.html on 2025-07-11
-2025-07-14 03:28:51 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507102701080p4kv2rayclashsing.html on 2025-07-10
-2025-07-14 03:28:51 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507092961080p4kv2rayclashsing.html on 2025-07-09
-2025-07-14 03:28:51 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507082651080p4kv2rayclashsing.html on 2025-07-08
-2025-07-14 03:28:51 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507072791080p4kv2rayclashsing.html on 2025-07-07
-2025-07-14 03:28:51 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507062921080p4kv2rayclashsing.html on 2025-07-06
-2025-07-14 03:28:51 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507052881080p4kv2rayclashsing.html on 2025-07-05
-2025-07-14 03:28:51 [decrypt] INFO: yudou66 needs update, accessing https://www.yudou123.top/2025/07/202507142651080p4kv2rayclashsing.html
-2025-07-14 03:28:51 [decrypt] INFO: yudou66 is up to date, exiting
-2025-07-14 03:28:51 [decrypt] INFO: yudou66 is up to date, exiting
-2025-07-14 03:28:51 [decrypt] INFO: blues found yt_url: https://youtu.be/WQ8uBKLlaWo
-2025-07-14 03:28:52 [decrypt] ERROR: blues found yt_url error: EOF when reading a line
-2025-07-14 03:28:55 [decrypt] WARNING: blues 1144 got 密碼錯誤
-2025-07-14 03:28:57 [decrypt] WARNING: blues 0000 got 密碼錯誤
-2025-07-14 03:28:58 [decrypt] WARNING: blues 0011 got 密碼錯誤
-2025-07-14 03:28:59 [decrypt] WARNING: blues 0022 got 密碼錯誤
-2025-07-14 03:29:01 [decrypt] WARNING: blues 0033 got 密碼錯誤
-2025-07-14 03:29:02 [decrypt] WARNING: blues 0044 got 密碼錯誤
-2025-07-14 03:29:04 [decrypt] WARNING: blues 0055 got 密碼錯誤
-2025-07-14 03:29:05 [decrypt] WARNING: blues 0066 got 密碼錯誤
-2025-07-14 03:29:06 [decrypt] WARNING: blues 0077 got 密碼錯誤
-2025-07-14 03:29:08 [decrypt] WARNING: blues 0088 got 密碼錯誤
-2025-07-14 03:29:11 [decrypt] INFO: blues saved new password 0099
-2025-07-14 03:29:11 [decrypt] INFO: blues found yt_url: https://youtu.be/Ggl6i8GoZZg
-2025-07-14 03:29:12 [decrypt] ERROR: blues found yt_url error: EOF when reading a line
-2025-07-14 03:29:13 [decrypt] WARNING: blues 0099 got 密碼錯誤
-2025-07-14 03:29:15 [decrypt] WARNING: blues 0000 got 密碼錯誤
-2025-07-14 03:29:16 [decrypt] WARNING: blues 0011 got 密碼錯誤
-2025-07-14 03:29:17 [decrypt] WARNING: blues 0022 got 密碼錯誤
-2025-07-14 03:29:19 [decrypt] WARNING: blues 0033 got 密碼錯誤
-2025-07-14 03:29:20 [decrypt] WARNING: blues 0044 got 密碼錯誤
-2025-07-14 03:29:21 [decrypt] WARNING: blues 0055 got 密碼錯誤
-2025-07-14 03:29:22 [decrypt] WARNING: blues 0066 got 密碼錯誤
-2025-07-14 03:29:23 [decrypt] WARNING: blues 0077 got 密碼錯誤
-2025-07-14 03:29:25 [decrypt] WARNING: blues 0088 got 密碼錯誤
-2025-07-14 03:29:26 [decrypt] WARNING: blues 0099 got 密碼錯誤
-2025-07-14 03:29:27 [decrypt] WARNING: blues 1100 got 密碼錯誤
-2025-07-14 03:29:28 [decrypt] WARNING: blues 1111 got 密碼錯誤
-2025-07-14 03:29:30 [decrypt] WARNING: blues 1122 got 密碼錯誤
-2025-07-14 03:29:31 [decrypt] WARNING: blues 1133 got 密碼錯誤
-2025-07-14 03:29:32 [decrypt] WARNING: blues 1144 got 密碼錯誤
-2025-07-14 03:29:33 [decrypt] WARNING: blues 1155 got 密碼錯誤
-2025-07-14 03:29:35 [decrypt] WARNING: blues 1166 got 密碼錯誤
-2025-07-14 03:29:36 [decrypt] WARNING: blues 1177 got 密碼錯誤
-2025-07-14 03:29:37 [decrypt] WARNING: blues 1188 got 密碼錯誤
-2025-07-14 03:29:38 [decrypt] WARNING: blues 1199 got 密碼錯誤
-2025-07-14 03:29:40 [decrypt] WARNING: blues 2200 got 密碼錯誤
-2025-07-14 03:29:41 [decrypt] WARNING: blues 2211 got 密碼錯誤
-2025-07-14 03:29:42 [decrypt] WARNING: blues 2222 got 密碼錯誤
-2025-07-14 03:29:43 [decrypt] WARNING: blues 2233 got 密碼錯誤
-2025-07-14 03:29:44 [decrypt] WARNING: blues 2244 got 密碼錯誤
-2025-07-14 03:29:46 [decrypt] WARNING: blues 2255 got 密碼錯誤
-2025-07-14 03:29:47 [decrypt] WARNING: blues 2266 got 密碼錯誤
-2025-07-14 03:29:48 [decrypt] WARNING: blues 2277 got 密碼錯誤
-2025-07-14 03:29:49 [decrypt] WARNING: blues 2288 got 密碼錯誤
-2025-07-14 03:29:50 [decrypt] WARNING: blues 2299 got 密碼錯誤
-2025-07-14 03:29:52 [decrypt] WARNING: blues 3300 got 密碼錯誤
-2025-07-14 03:29:54 [decrypt] WARNING: blues 3311 got 密碼錯誤
-2025-07-14 03:29:55 [decrypt] WARNING: blues 3322 got 密碼錯誤
-2025-07-14 03:29:56 [decrypt] WARNING: blues 3333 got 密碼錯誤
-2025-07-14 03:29:58 [decrypt] WARNING: blues 3344 got 密碼錯誤
-2025-07-14 03:29:59 [decrypt] WARNING: blues 3355 got 密碼錯誤
-2025-07-14 03:30:00 [decrypt] WARNING: blues 3366 got 密碼錯誤
-2025-07-14 03:30:02 [decrypt] WARNING: blues 3377 got 密碼錯誤
-2025-07-14 03:30:03 [decrypt] WARNING: blues 3388 got 密碼錯誤
-2025-07-14 03:30:04 [decrypt] WARNING: blues 3399 got 密碼錯誤
-2025-07-14 03:30:05 [decrypt] WARNING: blues 4400 got 密碼錯誤
-2025-07-14 03:30:06 [decrypt] WARNING: blues 4411 got 密碼錯誤
-2025-07-14 03:30:08 [decrypt] WARNING: blues 4422 got 密碼錯誤
-2025-07-14 03:30:09 [decrypt] WARNING: blues 4433 got 密碼錯誤
-2025-07-14 03:30:10 [decrypt] WARNING: blues 4444 got 密碼錯誤
-2025-07-14 03:30:12 [decrypt] WARNING: blues 4455 got 密碼錯誤
-2025-07-14 03:30:13 [decrypt] WARNING: blues 4466 got 密碼錯誤
-2025-07-14 03:30:14 [decrypt] WARNING: blues 4477 got 密碼錯誤
-2025-07-14 03:30:15 [decrypt] WARNING: blues 4488 got 密碼錯誤
-2025-07-14 03:30:17 [decrypt] WARNING: blues 4499 got 密碼錯誤
-2025-07-14 03:30:18 [decrypt] WARNING: blues 5500 got 密碼錯誤
-2025-07-14 03:30:19 [decrypt] WARNING: blues 5511 got 密碼錯誤
-2025-07-14 03:30:20 [decrypt] WARNING: blues 5522 got 密碼錯誤
-2025-07-14 03:30:21 [decrypt] WARNING: blues 5533 got 密碼錯誤
-2025-07-14 03:30:23 [decrypt] WARNING: blues 5544 got 密碼錯誤
-2025-07-14 03:30:24 [decrypt] WARNING: blues 5555 got 密碼錯誤
-2025-07-14 03:30:25 [decrypt] WARNING: blues 5566 got 密碼錯誤
-2025-07-14 03:30:27 [decrypt] WARNING: blues 5577 got 密碼錯誤
-2025-07-14 03:30:28 [decrypt] WARNING: blues 5588 got 密碼錯誤
-2025-07-14 03:30:29 [decrypt] WARNING: blues 5599 got 密碼錯誤
-2025-07-14 03:30:30 [decrypt] WARNING: blues 6600 got 密碼錯誤
-2025-07-14 03:30:31 [decrypt] WARNING: blues 6611 got 密碼錯誤
-2025-07-14 03:30:33 [decrypt] WARNING: blues 6622 got 密碼錯誤
-2025-07-14 03:30:34 [decrypt] WARNING: blues 6633 got 密碼錯誤
-2025-07-14 03:30:36 [decrypt] WARNING: blues 6644 got 密碼錯誤
-2025-07-14 03:30:37 [decrypt] WARNING: blues 6655 got 密碼錯誤
-2025-07-14 03:30:38 [decrypt] WARNING: blues 6666 got 密碼錯誤
-2025-07-14 03:30:39 [decrypt] WARNING: blues 6677 got 密碼錯誤
-2025-07-14 03:30:40 [decrypt] WARNING: blues 6688 got 密碼錯誤
-2025-07-14 03:30:42 [decrypt] WARNING: blues 6699 got 密碼錯誤
-2025-07-14 03:30:43 [decrypt] WARNING: blues 7700 got 密碼錯誤
-2025-07-14 03:30:44 [decrypt] WARNING: blues 7711 got 密碼錯誤
-2025-07-14 03:30:54 [decrypt] WARNING: blues 7722 got 密碼錯誤
-2025-07-14 03:30:56 [decrypt] WARNING: blues 7733 got 密碼錯誤
-2025-07-14 03:30:57 [decrypt] WARNING: blues 7744 got 密碼錯誤
-2025-07-14 03:31:00 [decrypt] INFO: blues found https://ylks.tt2000.sbs/2025/d7/c13/c.yaml
-2025-07-14 03:31:00 [scrapy.extensions.logstats] INFO: Crawled 7 pages (at 7 pages/min), scraped 0 items (at 0 items/min)
-2025-07-14 03:31:00 [decrypt] INFO: blues found https://ylks.tt2000.sbs/2025/d7/c13/v.txt
-2025-07-14 03:31:00 [decrypt] INFO: blues saved new password 7755
-2025-07-14 03:31:00 [decrypt] INFO: yudou66 found yt_url: https://youtu.be/WaZsDxl2InI
-2025-07-14 03:31:01 [decrypt] ERROR: yudou66 found yt_url error: EOF when reading a line
-2025-07-14 03:31:02 [decrypt] WARNING: yudou66 4455 got 密碼錯誤
-2025-07-14 03:31:04 [decrypt] INFO: yudou66 saved new password 0000
-2025-07-14 03:31:06 [decrypt] INFO: Pipeline processed blues.txt
-2025-07-14 03:31:07 [decrypt] INFO: Pipeline processed blues.yaml
-2025-07-14 03:31:07 [scrapy.core.engine] INFO: Closing spider (finished)
-2025-07-14 03:31:07 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 5892,
- 'downloader/request_count': 16,
- 'downloader/request_method_count/GET': 16,
- 'downloader/response_bytes': 464505,
- 'downloader/response_count': 16,
- 'downloader/response_status_count/200': 9,
- 'downloader/response_status_count/302': 6,
- 'downloader/response_status_count/404': 1,
- 'elapsed_time_seconds': 136.195251,
+2025-07-14 08:23:26 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-07-14 08:23:26 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-07-14 08:23:26 [decrypt] INFO: yudou66 start
+2025-07-14 08:23:26 [decrypt] INFO: blues start
+2025-07-14 08:23:26 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/20257144kchatgpt4k8kclashv2ray.html on 2025-07-14
+2025-07-14 08:23:26 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/20257134kchatgpt4k8kclashv2ray.html on 2025-07-13
+2025-07-14 08:23:26 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/20257124kchatgpt4k8kclashv2ray.html on 2025-07-12
+2025-07-14 08:23:26 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/20257114kchatgpt4k8kclashv2ray.html on 2025-07-11
+2025-07-14 08:23:26 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/20257104kchatgpt4k8kclashv2ray.html on 2025-07-10
+2025-07-14 08:23:26 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/2025794kchatgpt4k8kclashv2ray.html on 2025-07-09
+2025-07-14 08:23:26 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/2025784kchatgpt4k8kclashv2ray.html on 2025-07-08
+2025-07-14 08:23:26 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/2025774kchatgpt4k8kclashv2ray.html on 2025-07-07
+2025-07-14 08:23:26 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/2025764kchatgpt4k8kclashv2ray.html on 2025-07-06
+2025-07-14 08:23:26 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/07/2025754kchatgpt4k8kclashv2ray.html on 2025-07-05
+2025-07-14 08:23:26 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/07/20257144kchatgpt4k8kclashv2ray.html
+2025-07-14 08:23:26 [decrypt] INFO: blues is up to date, exiting
+2025-07-14 08:23:26 [decrypt] INFO: blues is up to date, exiting
+2025-07-14 08:23:26 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507142651080p4kv2rayclashsing.html on 2025-07-14
+2025-07-14 08:23:26 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507132681080p4kv2rayclashsing.html on 2025-07-13
+2025-07-14 08:23:26 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507122691080p4kv2rayclashsing.html on 2025-07-12
+2025-07-14 08:23:26 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507112581080p4kv2rayclashsing.html on 2025-07-11
+2025-07-14 08:23:26 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507102701080p4kv2rayclashsing.html on 2025-07-10
+2025-07-14 08:23:26 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507092961080p4kv2rayclashsing.html on 2025-07-09
+2025-07-14 08:23:26 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507082651080p4kv2rayclashsing.html on 2025-07-08
+2025-07-14 08:23:26 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507072791080p4kv2rayclashsing.html on 2025-07-07
+2025-07-14 08:23:26 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507062921080p4kv2rayclashsing.html on 2025-07-06
+2025-07-14 08:23:26 [decrypt] INFO: yudou66 found https://www.yudou123.top/2025/07/202507052881080p4kv2rayclashsing.html on 2025-07-05
+2025-07-14 08:23:26 [decrypt] INFO: yudou66 needs update, accessing https://www.yudou123.top/2025/07/202507142651080p4kv2rayclashsing.html
+2025-07-14 08:23:26 [decrypt] INFO: yudou66 is up to date, exiting
+2025-07-14 08:23:26 [decrypt] INFO: yudou66 is up to date, exiting
+2025-07-14 08:23:26 [decrypt] INFO: blues found yt_url: https://youtu.be/WQ8uBKLlaWo
+2025-07-14 08:23:27 [decrypt] ERROR: blues found yt_url error: EOF when reading a line
+2025-07-14 08:23:30 [decrypt] WARNING: blues 7755 got 密碼錯誤
+2025-07-14 08:23:32 [decrypt] WARNING: blues 0000 got 密碼錯誤
+2025-07-14 08:23:34 [decrypt] WARNING: blues 0011 got 密碼錯誤
+2025-07-14 08:23:36 [decrypt] WARNING: blues 0022 got 密碼錯誤
+2025-07-14 08:23:38 [decrypt] WARNING: blues 0033 got 密碼錯誤
+2025-07-14 08:23:39 [decrypt] WARNING: blues 0044 got 密碼錯誤
+2025-07-14 08:23:41 [decrypt] WARNING: blues 0055 got 密碼錯誤
+2025-07-14 08:23:43 [decrypt] WARNING: blues 0066 got 密碼錯誤
+2025-07-14 08:23:44 [decrypt] WARNING: blues 0077 got 密碼錯誤
+2025-07-14 08:23:46 [decrypt] WARNING: blues 0088 got 密碼錯誤
+2025-07-14 08:23:47 [decrypt] WARNING: blues 0099 got 密碼錯誤
+2025-07-14 08:23:49 [decrypt] WARNING: blues 1100 got 密碼錯誤
+2025-07-14 08:23:50 [decrypt] WARNING: blues 1111 got 密碼錯誤
+2025-07-14 08:23:52 [decrypt] WARNING: blues 1122 got 密碼錯誤
+2025-07-14 08:23:53 [decrypt] WARNING: blues 1133 got 密碼錯誤
+2025-07-14 08:23:55 [decrypt] WARNING: blues 1144 got 密碼錯誤
+2025-07-14 08:23:56 [decrypt] WARNING: blues 1155 got 密碼錯誤
+2025-07-14 08:23:58 [decrypt] WARNING: blues 1166 got 密碼錯誤
+2025-07-14 08:24:00 [decrypt] WARNING: blues 1177 got 密碼錯誤
+2025-07-14 08:24:01 [decrypt] WARNING: blues 1188 got 密碼錯誤
+2025-07-14 08:24:02 [decrypt] WARNING: blues 1199 got 密碼錯誤
+2025-07-14 08:24:04 [decrypt] WARNING: blues 2200 got 密碼錯誤
+2025-07-14 08:24:05 [decrypt] WARNING: blues 2211 got 密碼錯誤
+2025-07-14 08:24:07 [decrypt] WARNING: blues 2222 got 密碼錯誤
+2025-07-14 08:24:09 [decrypt] WARNING: blues 2233 got 密碼錯誤
+2025-07-14 08:24:10 [decrypt] WARNING: blues 2244 got 密碼錯誤
+2025-07-14 08:24:12 [decrypt] WARNING: blues 2255 got 密碼錯誤
+2025-07-14 08:24:13 [decrypt] WARNING: blues 2266 got 密碼錯誤
+2025-07-14 08:24:15 [decrypt] WARNING: blues 2277 got 密碼錯誤
+2025-07-14 08:24:17 [decrypt] WARNING: blues 2288 got 密碼錯誤
+2025-07-14 08:24:18 [decrypt] WARNING: blues 2299 got 密碼錯誤
+2025-07-14 08:24:20 [decrypt] WARNING: blues 3300 got 密碼錯誤
+2025-07-14 08:24:23 [decrypt] INFO: blues saved new password 3311
+2025-07-14 08:24:23 [decrypt] INFO: yudou66 found yt_url: https://youtu.be/WaZsDxl2InI
+2025-07-14 08:24:24 [decrypt] ERROR: yudou66 found yt_url error: EOF when reading a line
+2025-07-14 08:24:25 [decrypt] WARNING: yudou66 0000 got 密碼錯誤
+2025-07-14 08:24:25 [decrypt] WARNING: yudou66 0000 got 密碼錯誤
+2025-07-14 08:24:26 [decrypt] WARNING: yudou66 0011 got 密碼錯誤
+2025-07-14 08:24:26 [decrypt] WARNING: yudou66 0022 got 密碼錯誤
+2025-07-14 08:24:27 [decrypt] WARNING: yudou66 0033 got 密碼錯誤
+2025-07-14 08:24:27 [decrypt] WARNING: yudou66 0044 got 密碼錯誤
+2025-07-14 08:24:27 [decrypt] WARNING: yudou66 0055 got 密碼錯誤
+2025-07-14 08:24:30 [decrypt] INFO: yudou66 saved new password 0066
+2025-07-14 08:24:30 [scrapy.extensions.logstats] INFO: Crawled 6 pages (at 6 pages/min), scraped 0 items (at 0 items/min)
+2025-07-14 08:24:30 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-07-14 08:24:30 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3515,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 158618,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 6,
+ 'downloader/response_status_count/302': 4,
+ 'elapsed_time_seconds': 64.307563,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2025, 7, 14, 3, 31, 7, 491135, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 1127381,
- 'httpcompression/response_count': 9,
- 'item_scraped_count': 2,
- 'items_per_minute': 0.8823529411764706,
- 'log_count/ERROR': 3,
- 'log_count/INFO': 49,
- 'log_count/WARNING': 89,
- 'memusage/max': 169996288,
- 'memusage/startup': 154398720,
- 'request_depth_max': 2,
- 'response_received_count': 10,
- 'responses_per_minute': 4.411764705882353,
- 'robotstxt/request_count': 3,
- 'robotstxt/response_count': 3,
+ 'finish_time': datetime.datetime(2025, 7, 14, 8, 24, 30, 538447, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 835567,
+ 'httpcompression/response_count': 6,
+ 'items_per_minute': 0.0,
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 43,
+ 'log_count/WARNING': 41,
+ 'memusage/max': 172527616,
+ 'memusage/startup': 154378240,
+ 'request_depth_max': 1,
+ 'response_received_count': 6,
+ 'responses_per_minute': 5.625,
+ 'robotstxt/request_count': 2,
+ 'robotstxt/response_count': 2,
  'robotstxt/response_status_count/200': 2,
- 'robotstxt/response_status_count/404': 1,
- 'scheduler/dequeued': 11,
- 'scheduler/dequeued/memory': 11,
- 'scheduler/enqueued': 11,
- 'scheduler/enqueued/memory': 11,
- 'start_time': datetime.datetime(2025, 7, 14, 3, 28, 51, 295884, tzinfo=datetime.timezone.utc)}
-2025-07-14 03:31:07 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2025, 7, 14, 8, 23, 26, 230884, tzinfo=datetime.timezone.utc)}
+2025-07-14 08:24:30 [scrapy.core.engine] INFO: Spider closed (finished)
