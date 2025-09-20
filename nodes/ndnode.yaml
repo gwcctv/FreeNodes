@@ -19,7 +19,7 @@ proxies:
   name: 6元高速机场：cczzuu.top
   password: amazonskr05
   port: 443
-  server: 51.21.249.115
+  server: 13.61.188.86
   tfo: false
   type: ss
 - alterId: 2
@@ -69,49 +69,62 @@ proxies:
   name: 🇭🇰 香港4|@stairnode
   password: 253bc477d4e43c209f2d427272968280
   port: 443
-  server: 203.218.158.199
+  server: 1.64.115.53
   skip-cert-verify: true
-  sni: fe2.update.microsoft.com
+  sni: www.baidu.com
   type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 🇭🇰 香港5|@stairnode
   password: amazongreatvpn
   port: 16888
-  server: 18.163.190.75
+  server: 54.46.38.22
   tfo: false
   type: ss
 - client-fingerprint: chrome
   name: 🇭🇰 香港6|@stairnode
   password: 253bc477d4e43c209f2d427272968280
-  port: 4451
-  server: 36.151.251.6
-  skip-cert-verify: true
-  sni: www.baidu.com
+  port: 447
+  server: 160.16.70.180
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
-- alterId: 64
+- alterId: 2
   cipher: auto
   client-fingerprint: chrome
   name: 🇭🇰 香港7|@stairnode
-  port: 52512
-  server: 183.240.180.47
+  network: ws
+  port: 80
+  server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 🇯🇵 日本|@stairnode
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-hDcp24etDx.download.microsoft.com
+    host: 202509121565513-QOZnRQnbPm.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 🇯🇵 日本3|@stairnode
+  password: 253bc477d4e43c209f2d427272968280
+  port: 327
+  server: 153.121.45.139
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 🇯🇵 日本2|@stairnode
@@ -129,19 +142,11 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 🇯🇵 日本3|@stairnode
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3160
-  server: 153.121.76.9
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
-- client-fingerprint: chrome
   name: 🇯🇵 日本4|@stairnode
   password: 253bc477d4e43c209f2d427272968280
-  port: 1806
-  server: 36.151.251.6
-  skip-cert-verify: true
+  port: 1924
+  server: 160.16.72.33
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - cipher: aes-256-gcm
@@ -149,23 +154,23 @@ proxies:
   name: 🇯🇵 日本5|@stairnode
   password: amazongreatvpn
   port: 16888
-  server: 13.230.37.83
+  server: 3.115.88.171
   tfo: false
   type: ss
 - client-fingerprint: chrome
   name: 🇸🇬 新加坡|@stairnode
   password: 253bc477d4e43c209f2d427272968280
-  port: 4801
-  server: 36.151.251.6
-  skip-cert-verify: true
+  port: 2045
+  server: 160.16.130.66
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
   name: 🇸🇬 新加坡2|@stairnode
   password: 253bc477d4e43c209f2d427272968280
-  port: 9160
-  server: 36.151.251.6
-  skip-cert-verify: true
+  port: 4397
+  server: 160.16.117.182
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - alterId: 2
@@ -190,7 +195,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-hDcp24etDx.download.microsoft.com
+    host: 202509121565513-QOZnRQnbPm.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -201,15 +206,15 @@ proxies:
   password: 253bc477d4e43c209f2d427272968280
   port: 3294
   server: 153.121.73.102
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
   name: 🇺🇸 美国4|@stairnode
   password: 253bc477d4e43c209f2d427272968280
-  port: 4317
-  server: 153.121.76.9
-  skip-cert-verify: true
+  port: 3296
+  server: 153.121.73.102
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - cipher: aes-256-cfb
@@ -234,8 +239,8 @@ proxy-groups:
   - 🇭🇰 香港6|@stairnode
   - 🇭🇰 香港7|@stairnode
   - 🇯🇵 日本|@stairnode
-  - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
+  - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本4|@stairnode
   - 🇯🇵 日本5|@stairnode
   - 🇸🇬 新加坡|@stairnode
@@ -258,8 +263,8 @@ proxy-groups:
   - 🇭🇰 香港6|@stairnode
   - 🇭🇰 香港7|@stairnode
   - 🇯🇵 日本|@stairnode
-  - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
+  - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本4|@stairnode
   - 🇯🇵 日本5|@stairnode
   - 🇸🇬 新加坡|@stairnode
@@ -286,8 +291,8 @@ proxy-groups:
   - 🇭🇰 香港6|@stairnode
   - 🇭🇰 香港7|@stairnode
   - 🇯🇵 日本|@stairnode
-  - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
+  - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本4|@stairnode
   - 🇯🇵 日本5|@stairnode
   - 🇸🇬 新加坡|@stairnode
@@ -311,8 +316,8 @@ proxy-groups:
   - 🇭🇰 香港6|@stairnode
   - 🇭🇰 香港7|@stairnode
   - 🇯🇵 日本|@stairnode
-  - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
+  - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本4|@stairnode
   - 🇯🇵 日本5|@stairnode
   - 🇸🇬 新加坡|@stairnode
@@ -336,8 +341,8 @@ proxy-groups:
   - 🇭🇰 香港6|@stairnode
   - 🇭🇰 香港7|@stairnode
   - 🇯🇵 日本|@stairnode
-  - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
+  - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本4|@stairnode
   - 🇯🇵 日本5|@stairnode
   - 🇸🇬 新加坡|@stairnode
@@ -361,8 +366,8 @@ proxy-groups:
   - 🇭🇰 香港6|@stairnode
   - 🇭🇰 香港7|@stairnode
   - 🇯🇵 日本|@stairnode
-  - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
+  - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本4|@stairnode
   - 🇯🇵 日本5|@stairnode
   - 🇸🇬 新加坡|@stairnode
@@ -387,8 +392,8 @@ proxy-groups:
   - 🇭🇰 香港6|@stairnode
   - 🇭🇰 香港7|@stairnode
   - 🇯🇵 日本|@stairnode
-  - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
+  - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本4|@stairnode
   - 🇯🇵 日本5|@stairnode
   - 🇸🇬 新加坡|@stairnode
@@ -429,8 +434,8 @@ proxy-groups:
   - 🇭🇰 香港6|@stairnode
   - 🇭🇰 香港7|@stairnode
   - 🇯🇵 日本|@stairnode
-  - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
+  - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本4|@stairnode
   - 🇯🇵 日本5|@stairnode
   - 🇸🇬 新加坡|@stairnode
